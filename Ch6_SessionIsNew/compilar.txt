@@ -1,0 +1,6 @@
+cd Documents\MyProjects\Ch6_SessionIsNew
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\SessionNew.java
+
+http://localhost:8080/SNew.do
+

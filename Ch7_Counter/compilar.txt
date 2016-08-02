@@ -1,0 +1,5 @@
+http://localhost:8080/TestJSP1/BasicCounter.jsp
+http://localhost:8080/TestJSP1/DoubleCount.jsp
+http://localhost:8080/TestJSP1/Ex1.jsp
+http://localhost:8080/TestJSP1/Ex2.jsp
+http://localhost:8080/TestJSP1/Ex3.jsp

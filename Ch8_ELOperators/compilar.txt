@@ -1,0 +1,8 @@
+cd Documents\MyProjects\Ch8_ELOperators
+
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Dog.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -Xlint -d classes src\com\example\OperatorsTest.java
+
+http://localhost:8080/Ch8ELOperators/operatorstest.do
+

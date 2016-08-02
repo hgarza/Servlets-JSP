@@ -1,0 +1,9 @@
+cd Documents\MyProjects\Ch8_ELNoPrimitiveProperties
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Person.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Employee.java
+
+http://localhost:8080/Ch8PrimitiveProperties/form.html
+
+
+

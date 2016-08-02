@@ -1,0 +1,5 @@
+cd Documents\MyProjects\ConnectDB
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\MyServletContextListenerDB.java
+
+http://localhost:8080/ListenerTestDB/ListenerTestDB.do

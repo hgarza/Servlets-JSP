@@ -1,0 +1,12 @@
+<taglib xsi:schemaLocation="http://java.sun.com/xml/ns/javaee web-jsptaglibrary_2_1.xsd" 
+xmlns="http://java.sun.com/xml/ns/javaee"|
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+version="2.1">
+<tlib-version>1.2</tlib-version>
+<uri>simpleTags</uri>
+<tag>
+<description>worst use of a custom tag</description>
+<name>simple1</name>
+<tag-class>com.example.SimpleTagTest1</tag-class>
+<body-content>empty</body-content> </tag>
+</taglib>

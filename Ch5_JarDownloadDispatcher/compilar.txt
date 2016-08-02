@@ -1,0 +1,7 @@
+cd Documents\MyProjects\JarDownloadDispatcher
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\web\CodeDispatcher.java
+
+http://localhost:8080/JarDownloadDispatcher/CodeDispatcher.do
+
+http://localhost:8080/JarDownloadDispatcher/down.html

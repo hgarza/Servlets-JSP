@@ -1,0 +1,7 @@
+cd Documents\MyProjects\Ch6_SessionBindingActivationListeners
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Dog.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\ListenerTester.java
+
+http://localhost:8080/Ch6SessionBindingActivationListeners/listenertest.do
+

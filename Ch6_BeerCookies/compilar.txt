@@ -1,0 +1,7 @@
+cd Documents\MyProjects\Ch6_BeerCookies
+javac -d classes src\com\example\model\BeerAdvice.java
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes src\com\example\model\BeerAdvice.java -d classes src\com\example\web\BeerSelectCookie.java
+
+http://localhost:8080/BeerSelectCookie/form.html
+
+HttpSession session = request.getSession(false);

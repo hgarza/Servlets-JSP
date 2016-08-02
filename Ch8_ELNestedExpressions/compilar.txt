@@ -1,0 +1,9 @@
+cd Documents\MyProjects\Ch8_ELNestedExpressions
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Toy.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Dog.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Person.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\PersonTest.java
+
+http://localhost:8080/Ch8ELNestedExpressions/persontest.do
+

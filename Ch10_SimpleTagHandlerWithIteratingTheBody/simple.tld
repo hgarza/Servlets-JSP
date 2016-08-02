@@ -1,0 +1,11 @@
+<taglib>
+<tlib-version>1.2</tlib-version>
+<jsp-version>2.1</jsp-version>
+<uri>simpleTags</uri>
+<tag>
+<description>marginally better use of a custom tag</description>
+<name>simple4</name>
+<tag-class>com.example.SimpleTagTest4</tag-class>
+<body-content>scriptless</body-content> 
+</tag>
+</taglib>

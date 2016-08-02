@@ -1,0 +1,7 @@
+cd Documents\MyProjects\ProtectContextAttributeState
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\ProtectCAS.java
+http://localhost:8080/protectContextAtts/ProtectContext.do
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\ProtectCAS2.java
+http://localhost:8080/protectContextAtts/ProtectContext2.do

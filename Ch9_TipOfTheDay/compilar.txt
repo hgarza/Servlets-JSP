@@ -1,0 +1,5 @@
+cd Documents\MyProjects\Ch9_TipOfTheDay
+javac -d classes src\com\example\Tip.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\TipServlet.java
+
+http://localhost:8080/Ch9TipOfTheDay/tip.do

@@ -1,0 +1,6 @@
+cd Documents\MyProjects\Ch6_SessionNull
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\SessionNull.java
+
+http://localhost:8080/SessionNul/SNull.do
+

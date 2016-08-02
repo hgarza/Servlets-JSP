@@ -1,0 +1,5 @@
+cd Documents\MyProjects\Ch7_Hobbies
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\HobbyPage.java
+
+http://localhost:8080/Hobbies/Hobbies.html

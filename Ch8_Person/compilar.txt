@@ -1,0 +1,7 @@
+cd Documents\MyProjects\Ch8_Person
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\Person.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\PersonTest.java
+
+http://localhost:8080/Person/form.html
+

@@ -1,0 +1,5 @@
+cd Documents\MyProjects\Ch10_SimpleTagHandlerWithExpression
+javac -classpath C:\tomcat8\lib\servlet-api.jar;C:\tomcat8\lib/jsp-api.jar;classes;. -d classes src\com\example\SimpleTagTest3.java
+http://localhost:8080/Ch10SimpleTagHandlerWithExpression/useTag.jsp
+
+

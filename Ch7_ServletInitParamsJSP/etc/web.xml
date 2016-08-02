@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+id="WebApp_ID" version="2.5">
+	<servlet>
+		<servlet-name>MyTestInit</servlet-name>
+		<jsp-file>/TestInit.jsp</jsp-file>
+		<init-param>
+			<param-name>email</param-name>
+			<param-value>hi@hi.com</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyTestInit</servlet-name>
+		<url-pattern>/TestInit.jsp</url-pattern>
+	</servlet-mapping>
+</web-app>

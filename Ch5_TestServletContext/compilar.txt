@@ -1,0 +1,3 @@
+cd Documents\MyProjects\Ch5_TestServletContext
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\web\TestInitParams.java

@@ -1,0 +1,6 @@
+cd Documents\MyProjects\Ch8_ELImplicitObjects
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\CookieMake.java
+
+http://localhost:8080/Ch8ELImplicitObjects/form.html
+

@@ -1,0 +1,6 @@
+Note: if you want to see the generated servlet code 
+from Tomcat, look in 
+
+yourTomcatHomeDir/work/Catalina/yourServerName/yourWebAppName/org/apache/jsp.
+
+C:\tomcat8\work\Catalina\localhost...

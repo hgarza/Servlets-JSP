@@ -1,0 +1,5 @@
+cd Documents\MyProjects\Ch10_SimpleTagHandlerWithBody
+javac -classpath C:\tomcat8\lib\servlet-api.jar;C:\tomcat8\lib/jsp-api.jar;classes;. -d classes src\com\example\SimpleTagTest2.java
+http://localhost:8080/Ch10SimpleTagHandlerWithBody/useTag.jsp
+
+

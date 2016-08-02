@@ -1,0 +1,5 @@
+cd Documents\MyProjects\ProtectSession
+
+javac -classpath C:\tomcat\lib\servlet-api.jar;classes;. -d classes src\com\example\ProtectSession.java
+
+http://localhost:8080/protectSession/ProtectSession.do

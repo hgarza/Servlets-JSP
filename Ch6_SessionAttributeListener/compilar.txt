@@ -1,0 +1,7 @@
+cd Documents\MyProjects\Ch6_SessionAttributeListener
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\BeerAttributeListener.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\SessionTest.java
+
+http://localhost:8080/Ch6SessionCounter/sessiontest.do
+

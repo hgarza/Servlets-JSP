@@ -1,0 +1,7 @@
+cd Documents\MyProjects\Ch6_Cookie
+
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\CheckCookie.java
+javac -classpath C:\tomcat8\lib\servlet-api.jar;classes;. -d classes src\com\example\CookieTest.java
+
+http://localhost:8080/CookieExample/form.html
+
